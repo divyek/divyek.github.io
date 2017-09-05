@@ -1,7 +1,13 @@
 @import "{{ site.theme }}";
 
-body{
-			background-color: #eee;
-			font-family: ubuntu,sans-serif;
-			overflow: hidden;
-		}
+//colors
+$color_gallery_approx: #eee;
+
+//fonts
+$font_0: ubuntu;
+$font_1: sans-serif;
+
+body {
+	background-color: $color_gallery_approx;
+	font-family: $font_0, $font_1;
+}
