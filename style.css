@@ -1,0 +1,49 @@
+body{
+			background-color: #eee;
+			font-family: ubuntu,sans-serif;
+			overflow: hidden;
+		}
+		.main{
+			background-color: #F2A960;
+			height: 210px;
+			width: 400px;
+			position: absolute;
+			top: 30%;
+			left: 40%;
+			-webkit-box-shadow: 6px 3px 13px -4px rgba(0,0,0,0.51);
+			moz-box-shadow: 6px 3px 13px -4px rgba(0,0,0,0.51);
+			box-shadow: 6px 3px 13px -4px rgba(0,0,0,0.51);
+		}
+		.content-wrapper{
+			padding:5px;
+			color:brown;
+		}
+		.title{
+			float: left;
+		}
+		.email{
+			float: right;
+		}
+		.content-wrapper a{
+			text-decoration: none;
+		}
+		.clear{
+			clear:both;
+		}
+		.watermark{
+			color: #ddd;
+			font-weight: bold;
+			font-size: 2em;
+			text-align: justify;
+			text-transform: uppercase;
+		}
+
+		.rotate1{
+       -webkit-transform: perspective(300) rotateY(-45deg);
+       -webkit-transform-origin: 30% 50%;
+}
+.rotate2{
+       -webkit-transform: perspective(300) rotateY(-135deg);
+       -webkit-transform-origin: 50% 30%;
+}
+		
