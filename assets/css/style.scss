@@ -1,2 +1,7 @@
 @import "{{ site.theme }}";
 
+body{
+			background-color: #eee;
+			font-family: ubuntu,sans-serif;
+			overflow: hidden;
+		}
